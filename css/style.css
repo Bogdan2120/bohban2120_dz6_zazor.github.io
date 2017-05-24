@@ -1,0 +1,811 @@
+@font-face {
+    font-family: 'Lucida Sans Unicode';
+    src: url('../fonts/lucida-sans-unicode_allfont.ru-webfont.woff2') format('woff2'),
+         url('../fonts/lucida-sans-unicode_allfont.ru-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+	background: #fff;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.conteiner {
+	width: 909px;
+	margin: 0 auto;
+}
+/*-------------HEADER---------------*/
+.header {
+	width: 909px;
+}
+.top-header {
+	margin-top: 17px;
+	margin-left: 7px;
+}
+/*-----telefon----*/
+.telefon {
+	padding-top: 5px;
+	float: left;
+}
+.telefon img {
+	display: inline-block;
+	position: relative;
+	padding: 1px 4px 0 0; 
+	float: left;
+}
+.telefon p {
+	display: inline-block;
+	color: #5e696d;
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 0.4px;
+	vertical-align: middle;
+}
+/*--------avtoriz-------*/
+.avtoriz {
+	width: 495px;
+	height: 26px;
+	float: left;
+	margin-left: 16px;
+	background-color: #b1bcc0;
+	background-image: linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
+	border-radius: 4px;
+	box-shadow: 1.5px 2.6px 3px rgba(150, 150, 150, 0.75);
+}
+.avtoriz img {
+	display: inline-block;
+	margin: 5px 3px 3px 7px;
+	float: left;
+}
+.avtoriz form {
+	position: relative;
+	float: left;
+}
+.avtoriz form input {
+	width: 107px;
+	height: 16px;
+	margin-top: 3px;
+	padding-left: 3px;
+	background-color: white;
+	border: 1px solid #9ba1a3;
+	font-family: 'Lucida Sans Unicode', arial;
+	color: #97a2a6;
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.avtoriz form input:last-child {
+	margin-left: 6px;
+	padding-left: 2px;
+}
+.avtoriz span {
+	padding-left: 7px;
+	color: white;
+	font-family: "Lucida Sans Unicode", arial;
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.avtoriz span a {
+	text-decoration: none;
+	color: white;
+	font-family: "Lucida Sans Unicode", arial;
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.avtoriz > a {
+	padding-left: 13px;
+	color: #bfbfbf;
+	font-family: "Lucida Sans Unicode", arial;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 25px;
+	text-decoration: underline;
+}
+/*------navi------*/
+.navi {
+	width: 76px;
+	height: 20px;
+	float: left;
+	margin: 2px 0 0 16px;
+	background-color: white;
+	border: 1px solid #bdc4c7;
+	border-radius: 10px; 
+	box-shadow: 0.9px 1px 3px rgba(150, 150, 150, 0.5);
+}
+.navi .home {
+	padding-left: 8px;
+}
+.navi .mapsite {
+	padding-left: 6px;
+}
+.navi .mail {
+	padding-left: 5px;
+}
+/*-----baner-----------*/
+.baner img {
+	padding-top: 10px;
+}
+/*------------panel--------------*/
+.panel {
+	width: 909px;
+	height: 34px;
+	background-color: white;
+	background-image: linear-gradient(to top, black 0%, #576068 100%);
+	border: 1px solid #0d1642;
+	border-radius: 5px;
+	box-shadow: 1.5px 2.6px 5px rgba(0, 0, 0, 0.75);
+	margin-top: 3px;
+}
+/*--------menu------------*/
+.top-menu {
+	position: relative;
+	padding-top: 3px;
+	float: right;
+}
+.top-menu > ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu > li {
+    float: left;
+    position: relative;
+}
+ul.menu > li > a {
+    display: block;
+    padding: 7px 14px;
+    color: #b1bcc0;
+    font-family: "Lucida Sans Unicode", arial;
+	font-size: 14px;
+	text-transform: uppercase;
+    text-decoration: none;
+}
+ul.menu > li > a:hover {
+	display: block;
+    padding: 7px 14px;
+    border-radius: 100px;
+    background-color: #f60303;
+	background-image: linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
+    color: white;
+    text-transform: uppercase;
+    font-family: "Lucida Sans Unicode", arial;
+	font-size: 14px;
+    text-decoration: none;
+}
+/*----------koshyk---------*/
+.koshyk {
+	width: 212px;
+	position: relative;
+	float: right;
+	margin: 7px 16px 0 55px;
+}
+.quantity_product {
+	position: relative;
+	float: left;
+	margin-right: 24px;
+}
+.quantity_product img {
+	position: relative;
+	float: left;
+	padding-right: 9px;
+}
+.quantity_product > p {
+	position: relative;
+	float: left;
+	padding-top: 3px;
+	color: #929b9f;
+	font-family: Arial;
+	font-size: 11px;
+}
+.quantity_product > p > span {
+	position: absolute;
+	color: #0d5a8f;
+	font-family: Arial;
+	font-size: 12px;
+	z-index: 100;
+}
+.maney {
+	position: relative;
+	float: left;
+}
+.maney > p {
+	padding-top: 3px;
+	color: #929b9f;
+	font-family: Arial;
+	font-size: 11px;
+}
+.maney > p > span {
+	position: absolute;
+	padding-left: 11px;
+	color: #0d5a8f;
+	font-family: Arial;
+	font-size: 12px;
+	z-index: 100;
+}
+/*--------search-------*/
+.search {
+	margin-top: 7px;
+}
+/*--------------------CONTENT-------------------*/
+.content {
+	width: 909px;
+	height: 600px;
+	margin-top: 5px;
+}
+/*---------menu_catalog-----------*/
+.menu_catalog {
+	width: 183px;
+	position: relative;
+	float: left;
+	margin-top: 4px;
+	overflow: hidden;
+}
+.name_catalog {
+	width: 180px;
+	height: 24px;
+	background-color: white;
+	border: 1px solid #79878d;
+	border-radius: 15px;
+	box-shadow: 1.5px 2.6px 3px rgba(150, 150, 150, 0.75);
+}
+.name_catalog img {
+	padding: 1px 2px 2px 2px;
+	position: relative;
+	float: left;
+}
+.name_catalog p {
+	color: #114165;
+	font-family: "Lucida Sans Unicode", arial;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 25px;
+	vertical-align: middle;
+	text-transform: uppercase;
+}
+/*----shyny---*/
+.shyny {
+	width: 147px;
+	height: 24px;
+	background-color: white;
+	border: 1px solid #79878d;
+	border-radius: 15px;
+	margin-top: 14px;
+	margin-left: 2px;
+}
+.shyny span {
+	width: 12px;
+	height: 12px;
+	display: block;
+	position: relative;
+	float: left;
+	margin: 1px 3px 2px 2px;
+	border: 5px solid #114165;
+	border-radius: 20px;
+}
+.shyny p {
+	color: #114165;
+	font-family: "Lucida Sans Unicode", arial;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 25px;
+	vertical-align: middle;
+	text-transform: uppercase;
+}
+.catalog_shyny {
+	display: block;
+	margin-left: 36px;
+	margin-top: 4px;
+}
+.catalog_shyny > li {
+	padding-top: 10px;
+	list-style-type: none;
+}
+.catalog_shyny > li:before {
+	content: '○';
+	color: #465961;
+}
+.catalog_shyny > li:first-child {
+	padding-top: 0;
+}
+.catalog_shyny > li > a{
+	color: #465961;
+	font-family: "Lucida Sans Unicode", arial;
+	font-size: 13px;
+	font-weight: 400;
+	text-decoration: none;
+}
+.catalog_shyny > li > a:hover{
+	color: #0c3256;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 700;
+	font-style: italic;
+	text-decoration: underline;
+}
+/*----disck---*/
+.disck {
+	width: 147px;
+	height: 24px;
+	background-color: white;
+	border: 1px solid #79878d;
+	border-radius: 15px;
+	margin-top: 4px;
+	margin-left: 2px;
+}
+.disck span {
+	width: 12px;
+	height: 12px;
+	display: block;
+	position: relative;
+	float: left;
+	margin: 1px 3px 2px 2px;
+	border: 5px solid #114165;
+	border-radius: 20px;
+}
+.disck p {
+	color: #114165;
+	font-family: "Lucida Sans Unicode", arial;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 25px;
+	vertical-align: middle;
+	text-transform: uppercase;
+}
+.catalog_disck {
+	display: block;
+	margin-left: 36px;
+	margin-top: 4px;
+}
+.catalog_disck > li {
+	padding-top: 10px;
+	list-style-type: none;
+}
+.catalog_disck > li:before {
+	content: '○';
+	color: #465961;
+}
+.catalog_disck > li:first-child {
+	padding-top: 0;
+}
+.catalog_disck > li > a{
+	color: #465961;
+	font-family: "Lucida Sans Unicode", arial;
+	font-size: 13px;
+	font-weight: 400;
+	text-decoration: none;
+}
+.catalog_disck > li > a:hover{
+	color: #0c3256;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 700;
+	font-style: italic;
+	text-decoration: underline;
+}
+/*---bolt--*/
+.bolt {
+	width: 147px;
+	height: 24px;
+	background-color: white;
+	border: 1px solid #79878d;
+	border-radius: 15px;
+	margin-top: 3px;
+	margin-left: 2px;
+}
+.bolt span {
+	width: 12px;
+	height: 12px;
+	display: block;
+	position: relative;
+	float: left;
+	margin: 1px 3px 2px 2px;
+	border: 5px solid #114165;
+	border-radius: 20px;
+}
+.bolt p {
+	color: #114165;
+	font-family: "Lucida Sans Unicode", arial;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 25px;
+	vertical-align: middle;
+	text-transform: uppercase;
+}
+.catalog_bolt {
+	display: block;
+	margin-left: 36px;
+	margin-top: 4px;
+}
+.catalog_bolt > li {
+	padding-top: 10px;
+	list-style-type: none;
+}
+.catalog_bolt > li:before {
+	content: '○';
+	color: #465961;
+}
+.catalog_bolt > li:first-child {
+	padding-top: 0;
+}
+.catalog_bolt > li > a{
+	color: #465961;
+	font-family: "Lucida Sans Unicode", arial;
+	font-size: 13px;
+	font-weight: 400;
+	text-decoration: none;
+}
+.catalog_bolt > li > a:hover{
+	color: #0c3256;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 700;
+	font-style: italic;
+	text-decoration: underline;
+}
+/*-------goods--------*/
+.goods {
+	width: 526px;
+	height: 627px;
+	position: relative;
+	float: left;
+	margin-left: 7px;
+	background-color: white;
+	background-image: linear-gradient(to top, rgba(35, 75, 93, 0.24) 0%, rgba(201, 207, 209, 0.24) 100%);
+	border-radius: 3px;
+	overflow: hidden;
+}
+.product_top {
+	width: 477px;
+	height: 177px;
+	position: relative;
+	margin-left: 22px;
+	margin-top: 16px;
+}
+.goodyear {
+	position: relative;
+	float: left;
+}
+.goodyear > p:first-child {
+	text-align: center;
+	font-family: "Lucida Sans Unicode", arial;
+	color: #206988;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 13px;
+	font-weight: 600;
+}
+.goodyear > p {
+	padding-left: 2px;
+	text-align: center;
+	font-family: "Lucida Sans Unicode", arial;
+	color: #1f2528;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 13px;
+}
+.goodyear > p:last-child {
+	padding-top: 5px;
+	padding-left: 9px;
+	text-align: center;
+	color: #114165;
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: 700;
+	font-style: italic;
+	line-height: 10px;
+}
+.goodyear > p:last-child > span {
+	color: #114165;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 700;
+	font-style: italic;
+	line-height: 10px;
+}
+.nokian {
+	position: relative;
+	float: left;
+	margin-left: 28px;
+}
+.nokian > p:first-child {
+	text-align: center;
+	font-family: "Lucida Sans Unicode", arial;
+	color: #206988;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 13px;
+	font-weight: 600;
+}
+.nokian > p {
+	padding-left: 2px;
+	text-align: center;
+	font-family: "Lucida Sans Unicode", arial;
+	color: #1f2528;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 13px;
+}
+.nokian > p:last-child {
+	padding-top: 5px;
+	padding-left: 10px;
+	text-align: center;
+	color: #114165;
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: 700;
+	font-style: italic;
+	line-height: 10px;
+}
+.nokian > p:last-child > span {
+	color: #114165;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 700;
+	font-style: italic;
+	line-height: 10px;
+}
+.hankook {
+	position: relative;
+	float: left;
+	margin-left: 29px;
+}
+.hankook > p:first-child {
+	text-align: center;
+	font-family: "Lucida Sans Unicode", arial;
+	color: #206988;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 13px;
+	font-weight: 600;
+}
+.hankook > p {
+	padding-left: 2px;
+	text-align: center;
+	font-family: "Lucida Sans Unicode", arial;
+	color: #1f2528;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 13px;
+}
+.hankook > p:last-child {
+	padding-top: 5px;
+	padding-left: 10px;
+	text-align: center;
+	color: #114165;
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: 700;
+	font-style: italic;
+	line-height: 10px;
+}
+.hankook > p:last-child > span {
+	color: #114165;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 700;
+	font-style: italic;
+	line-height: 10px;
+}
+.product_mid {
+	width: 477px;
+	height: 177px;
+	position: relative;
+	margin-left: 22px;
+	padding-top: 26px;
+}
+.product_bottom {
+	width: 477px;
+	height: 177px;
+	position: relative;
+	margin-left: 22px;
+	padding-top: 26px;
+}
+/*--------brand-------*/
+.brands {
+	width: 183px;
+	position: relative;
+	float: left;
+	margin-top: 1px;
+	margin-left: 10px;
+	overflow: hidden;
+}
+.name_brand {
+	width: 180px;
+	height: 24px;
+	background-color: white;
+	border: 1px solid #79878d;
+	border-radius: 15px;
+	box-shadow: 1.5px 2.6px 3px rgba(150, 150, 150, 0.75);
+}
+.name_brand img {
+	padding: 1px 6px 2px 3px;
+	position: relative;
+	float: left;
+}
+.name_brand p {
+	color: #114165;
+	font-family: "Lucida Sans Unicode", arial;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 25px;
+	vertical-align: middle;
+	text-transform: uppercase;
+}
+/*---brand_shyny----*/
+.brand_shyny {
+	width: 136px;
+	height: 26px;
+	background-color: white;
+	border: 1px solid #79878d;
+	border-radius: 15px;
+	margin-top: 15px;
+	margin-left: 14px;
+}
+.brand_shyny span {
+	width: 12px;
+	height: 12px;
+	display: block;
+	position: relative;
+	float: left;
+	margin: 1px 4px 2px 5px;
+	border: 5px solid #114165;
+	border-radius: 20px;
+}
+.brand_shyny p {
+	color: #114165;
+	font-family: "Lucida Sans Unicode", arial;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 25px;
+	vertical-align: middle;
+	text-transform: uppercase;
+}
+.checkbox {
+	display: block;
+	position: relative;
+	margin-left: 25px;
+	margin-top: 2px;
+}
+.checkbox label {
+	position: relative;
+}
+input[type=checkbox] {
+	display: none;
+}
+.checkbox label {
+	color: #465961;
+	font-family: "Lucida Sans Unicode";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.checkbox label:before {
+	content: "";
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	font-family: "Lucida Sans Unicode", arial;
+	background-color: white;
+	border: 1px solid #114165;
+	margin-right: 14px;
+	box-shadow: inset 0.5px 0.9px 1px rgba(0, 0, 0, 0.75);
+}
+input[type=checkbox]:checked + label:after {
+	content: "\2714";
+	display: inline-block;
+	font-family: "Lucida Sans Unicode", arial;
+	width: 2px;
+	height: 2px;
+	position: absolute;
+	left: 2px;
+	top: -4px;
+}
+/*-------brand_disk--------*/
+.brand_disk {
+	width: 136px;
+	height: 26px;
+	background-color: white;
+	border: 1px solid #79878d;
+	border-radius: 15px;
+	margin-top: 9px;
+	margin-left: 14px;
+}
+.brand_disk span {
+	width: 12px;
+	height: 12px;
+	display: block;
+	position: relative;
+	float: left;
+	margin: 1px 5px 2px 2px;
+	border: 5px solid #114165;
+	border-radius: 20px;
+}
+.brand_disk p {
+	color: #114165;
+	font-family: "Lucida Sans Unicode", arial;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 25px;
+	vertical-align: middle;
+	text-transform: uppercase;
+}
+/*----bottom-----*/
+.bottom {
+	margin-top: 15px;
+	margin-left: 25px;
+}
+/*--------------logo_brend------------------*/
+.logo_brend {
+	width: 683px;
+	margin: 70px auto 16px;
+	float: none;
+	padding-left: 10px;
+}
+.logo_brend a {
+	padding-right: 9px;
+	vertical-align: top;
+}
+/*----------------------------------------FOOTER-------------------*/
+footer {
+	width: 909px;
+	height: 101px;
+	background-color: #213a4d;
+	border: 1px solid #242a3c;
+}
+.menu_bottom {
+	width: 320px;
+	margin: 10px auto;
+}
+.bottom_menu {
+	display: block;
+	
+	position: relative;
+}
+.bottom_menu > li {
+    float: left;
+    position: relative;
+    padding:0 12px;
+    border-right: 2px solid #bec6c9;
+}
+.bottom_menu > li:last-child {
+    float: left;
+    position: relative;
+    padding:0 12px;
+    border-right: none;
+}
+.bottom_menu > li > a {
+    display: block;
+    font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16px;
+	color: #bec6c9;
+	text-decoration: none;
+}
+.bottom_menu > li > a:hover {
+	display: block;
+    font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16px;
+	color: #52abcb;
+	text-decoration: none;
+}
+.global {
+	width: 154px;
+	margin: 0 auto;
+}
+.global p {
+	color: #7f4740;
+	font-family: Arial;
+	font-size: 10px;
+	font-weight: 400;
+	line-height: 18px;
+}
