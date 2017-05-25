@@ -1,7 +1,9 @@
 @font-face {
     font-family: 'Lucida Sans Unicode';
     src: url('../fonts/lucida-sans-unicode_allfont.ru-webfont.woff2') format('woff2'),
-         url('../fonts/lucida-sans-unicode_allfont.ru-webfont.woff') format('woff');
+         url('../fonts/lucida-sans-unicode_allfont.ru-webfont.woff') format('woff'),
+         url('../fonts/lucida-sans-unicode_allfont.ru-webfont.eot') format('eot'),
+         url('../fonts/lucida-sans-unicode_allfont.ru-webfont') format('ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -12,6 +14,35 @@ body {
   content: "";
   display: table;
   clear: both;
+}
+.font_lus11 {
+	font-family: "Lucida Sans Unicode", arial;
+	font-size: 11px;
+	
+}
+.font_lus12 {
+	font-family: "Lucida Sans Unicode", arial;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.font_lus13 {
+	font-family: "Lucida Sans Unicode", arial;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.font_lus14 {
+	font-family: "Lucida Sans Unicode", arial;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.font_lus15 {
+	font-family: "Lucida Sans Unicode", arial;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 25px;
 }
 .conteiner {
 	width: 909px;
@@ -71,12 +102,8 @@ body {
 	margin-top: 3px;
 	padding-left: 3px;
 	background-color: white;
-	border: 1px solid #9ba1a3;
-	font-family: 'Lucida Sans Unicode', arial;
+	border: 1px solid #9ba1a3;	
 	color: #97a2a6;
-	font-size: 11px;
-	font-weight: 400;
-	line-height: 25px;
 }
 .avtoriz form input:last-child {
 	margin-left: 6px;
@@ -85,26 +112,19 @@ body {
 .avtoriz span {
 	padding-left: 7px;
 	color: white;
-	font-family: "Lucida Sans Unicode", arial;
-	font-size: 11px;
-	font-weight: 400;
-	line-height: 25px;
+}
+.avtoriz span input {
+	height: 20px;
+	padding: 0;
+	color: white;
 }
 .avtoriz span a {
 	text-decoration: none;
 	color: white;
-	font-family: "Lucida Sans Unicode", arial;
-	font-size: 11px;
-	font-weight: 400;
-	line-height: 25px;
 }
 .avtoriz > a {
 	padding-left: 13px;
 	color: #bfbfbf;
-	font-family: "Lucida Sans Unicode", arial;
-	font-size: 12px;
-	font-weight: 400;
-	line-height: 25px;
 	text-decoration: underline;
 }
 /*------navi------*/
@@ -262,10 +282,6 @@ ul.menu > li > a:hover {
 }
 .name_catalog p {
 	color: #114165;
-	font-family: "Lucida Sans Unicode", arial;
-	font-size: 13px;
-	font-weight: 400;
-	line-height: 25px;
 	vertical-align: middle;
 	text-transform: uppercase;
 }
@@ -291,10 +307,6 @@ ul.menu > li > a:hover {
 }
 .shyny p {
 	color: #114165;
-	font-family: "Lucida Sans Unicode", arial;
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 25px;
 	vertical-align: middle;
 	text-transform: uppercase;
 }
@@ -351,10 +363,6 @@ ul.menu > li > a:hover {
 }
 .disck p {
 	color: #114165;
-	font-family: "Lucida Sans Unicode", arial;
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 25px;
 	vertical-align: middle;
 	text-transform: uppercase;
 }
@@ -411,10 +419,6 @@ ul.menu > li > a:hover {
 }
 .bolt p {
 	color: #114165;
-	font-family: "Lucida Sans Unicode", arial;
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 25px;
 	vertical-align: middle;
 	text-transform: uppercase;
 }
@@ -474,8 +478,8 @@ ul.menu > li > a:hover {
 }
 .goodyear > p:first-child {
 	text-align: center;
-	font-family: "Lucida Sans Unicode", arial;
 	color: #206988;
+	font-family: "Lucida Sans Unicode", arial;
 	font-size: 15px;
 	font-weight: 400;
 	line-height: 13px;
@@ -631,10 +635,6 @@ ul.menu > li > a:hover {
 }
 .name_brand p {
 	color: #114165;
-	font-family: "Lucida Sans Unicode", arial;
-	font-size: 13px;
-	font-weight: 400;
-	line-height: 25px;
 	vertical-align: middle;
 	text-transform: uppercase;
 }
@@ -660,10 +660,6 @@ ul.menu > li > a:hover {
 }
 .brand_shyny p {
 	color: #114165;
-	font-family: "Lucida Sans Unicode", arial;
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 25px;
 	vertical-align: middle;
 	text-transform: uppercase;
 }
@@ -729,10 +725,6 @@ input[type=checkbox]:checked + label:after {
 }
 .brand_disk p {
 	color: #114165;
-	font-family: "Lucida Sans Unicode", arial;
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 25px;
 	vertical-align: middle;
 	text-transform: uppercase;
 }
@@ -799,7 +791,7 @@ footer {
 	text-decoration: none;
 }
 .global {
-	width: 154px;
+	width: 160px;
 	margin: 0 auto;
 }
 .global p {
